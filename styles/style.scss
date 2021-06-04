@@ -6,6 +6,9 @@
   justify-content: center;
   align-items: center;
 }
+
+$primaryColor: #fff;
+$secondaryColor: #000;
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +18,7 @@
 }
 P {
   font-weight: 300;
-  color: #fff;
+  color: $primaryColor;
 }
 .home {
   @include flexCenter();
@@ -31,7 +34,28 @@ P {
     text-align: center;
     h1 {
       font-size: 5rem;
-      color: #fff;
+      color: $primaryColor;
     }
+    h2 {
+      font-size: 2rem;
+      color: $primaryColor;
+    }
+  }
+}
+.btn {
+  font-size: 1rem;
+  color: $primaryColor;
+  background: #535353;
+  border: 1px solid $primaryColor;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  &:hover {
+    letter-spacing: 3px;
   }
 }

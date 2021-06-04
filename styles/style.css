@@ -40,4 +40,29 @@ P {
   font-size: 5rem;
   color: #fff;
 }
+
+.home .content h2 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.btn {
+  font-size: 1rem;
+  color: #fff;
+  background: #535353;
+  border: 1px solid #fff;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  letter-spacing: 3px;
+}
 /*# sourceMappingURL=style.css.map */
