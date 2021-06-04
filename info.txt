@@ -1,3 +1,4 @@
 index page:
 
 banner = home
+navigation = navbar

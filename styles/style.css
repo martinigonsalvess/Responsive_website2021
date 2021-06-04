@@ -65,4 +65,31 @@ P {
 .btn:hover {
   letter-spacing: 3px;
 }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .logo {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
