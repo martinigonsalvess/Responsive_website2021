@@ -78,7 +78,8 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 40px 100px;
+  padding: 30px 90px;
+  background: #f79f1f;
   z-index: 100;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -91,10 +92,13 @@ header {
           align-items: center;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  border-bottom: 4px solid #fff;
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
 
 header .logo {
-  color: #000;
+  color: #fff;
   font-weight: 700;
   font-size: 2rem;
   text-decoration: none;

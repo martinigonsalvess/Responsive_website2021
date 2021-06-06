@@ -80,15 +80,19 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 40px 100px;
-  // background: $logoColor;
+  padding: 30px 90px;
+  background: $logoColor;
   z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: 0.5s;
+  border-bottom: 4px solid $primaryColor;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+
   .logo {
-    color: $secondaryColor;
+    color: $primaryColor;
     font-weight: 700;
     font-size: 2rem;
     text-decoration: none;
