@@ -164,7 +164,7 @@ header.sticky {
 .contact {
   @include allContent();
   background: #34495e;
-  height: 100vh;
+  height: 1000px;
 
   .title {
     padding: 7rem 0 2rem;
@@ -223,4 +223,12 @@ header.sticky {
   transition: 0.5s;
   border: none;
   cursor: pointer;
+}
+.copyright {
+  // z-index: 100;
+  // position: fixed;
+  padding: 8px 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background: $logoColor;
 }

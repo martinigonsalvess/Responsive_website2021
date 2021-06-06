@@ -198,7 +198,7 @@ header.sticky .logo {
   color: #fff;
   letter-spacing: 4px;
   background: #34495e;
-  height: 100vh;
+  height: 1000px;
 }
 
 .contact .title {
@@ -274,5 +274,12 @@ header.sticky .logo {
   transition: 0.5s;
   border: none;
   cursor: pointer;
+}
+
+.copyright {
+  padding: 8px 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background: #f79f1f;
 }
 /*# sourceMappingURL=style.css.map */
