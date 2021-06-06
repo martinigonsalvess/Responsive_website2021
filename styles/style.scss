@@ -193,7 +193,26 @@ header.sticky {
   }
 }
 .contactForm .inputBox {
-  background: red;
+  // background: red;
+  // height: 30px;
   margin-bottom: 10px;
-  width: 100%;
+  input,
+  textarea {
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    // color: #111;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+  }
+}
+.contactForm .inputBox input[type="submit"] {
+  color: $primaryColor;
+  background: $logoColor;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-transform: uppercase;
+  transition: 0.5s;
+  border: none;
 }

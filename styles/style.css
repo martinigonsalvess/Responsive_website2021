@@ -243,8 +243,27 @@ header.sticky .logo {
 }
 
 .contactForm .inputBox {
-  background: red;
   margin-bottom: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
   width: 100%;
+  outline: none;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.contactForm .inputBox input[type="submit"] {
+  color: #fff;
+  background: #f79f1f;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
