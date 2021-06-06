@@ -91,7 +91,7 @@ header {
 }
 
 header .logo {
-  color: #fff;
+  color: #000;
   font-weight: 700;
   font-size: 2rem;
   text-decoration: none;
@@ -115,11 +115,21 @@ header .navbar li a {
   font-weight: 600;
 }
 
+header .navbar li a:hover {
+  color: #a3cb38;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
 header.sticky {
   background: #f79f1f;
   border-bottom: 4px solid #fff;
   padding: 20px 80px;
   -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+header.sticky .logo {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
