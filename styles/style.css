@@ -49,6 +49,8 @@ P {
 .home .content h2 {
   font-size: 2rem;
   color: #fff;
+  display: block;
+  letter-spacing: 0.8rem;
 }
 
 .btn {
@@ -113,6 +115,7 @@ header .navbar li {
 header .navbar li a {
   text-decoration: none;
   color: #fff;
+  letter-spacing: 0.3rem;
   font-weight: 600;
 }
 
@@ -134,9 +137,24 @@ header.sticky .logo {
   color: #fff;
 }
 
+.gallery {
+  border-top: 2px solid #fff;
+  color: #fff;
+  letter-spacing: 4px;
+  background: #2c3e50;
+}
+
+.gallery .title {
+  padding: 7rem 0 2rem;
+}
+
 .gallery .title h1 {
   text-align: center;
   font-size: 2rem;
+}
+
+.gallery .title h1 span {
+  color: #f79f1f;
 }
 
 .gallery .title h2 {
@@ -166,5 +184,15 @@ header.sticky .logo {
 
 .gallery .content .box .imgBx img {
   border-radius: 15px;
+  width: 500px;
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+}
+
+.contact {
+  border-top: 2px solid #fff;
+  color: #fff;
+  letter-spacing: 4px;
+  background: #34495e;
 }
 /*# sourceMappingURL=style.css.map */

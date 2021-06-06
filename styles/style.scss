@@ -6,6 +6,11 @@
   justify-content: center;
   align-items: center;
 }
+@mixin allContent() {
+  border-top: 2px solid $primaryColor;
+  color: $primaryColor;
+  letter-spacing: 4px;
+}
 
 $primaryColor: #fff;
 $secondaryColor: #000;
@@ -47,6 +52,9 @@ P {
     h2 {
       font-size: 2rem;
       color: $primaryColor;
+      display: block;
+
+      letter-spacing: 0.8rem;
     }
   }
 }
@@ -94,6 +102,7 @@ header {
       a {
         text-decoration: none;
         color: $primaryColor;
+        letter-spacing: 0.3rem;
         font-weight: 600;
         &:hover {
           color: #a3cb38;
@@ -113,9 +122,18 @@ header.sticky {
   }
 }
 .gallery {
+  @include allContent();
+  background: #2c3e50;
+
+  .title {
+    padding: 7rem 0 2rem;
+  }
   .title h1 {
     text-align: center;
     font-size: $h1;
+    span {
+      color: $logoColor;
+    }
   }
   .title h2 {
     text-align: center;
@@ -129,9 +147,18 @@ header.sticky {
     flex-wrap: wrap;
     .box {
       padding: 10px;
+
       .imgBx img {
         border-radius: 15px;
+        width: 500px;
+
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
       }
     }
   }
+}
+.contact {
+  @include allContent();
+
+  background: #34495e;
 }
