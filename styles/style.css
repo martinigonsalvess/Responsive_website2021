@@ -80,6 +80,7 @@ header {
   width: 100%;
   padding: 30px 90px;
   background: #f79f1f;
+  opacity: 0.8;
   z-index: 100;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -198,7 +199,7 @@ header.sticky .logo {
   color: #fff;
   letter-spacing: 4px;
   background: #34495e;
-  height: 1000px;
+  height: 100vh;
 }
 
 .contact .title {
@@ -276,10 +277,24 @@ header.sticky .logo {
   cursor: pointer;
 }
 
-.copyright {
+footer {
   padding: 8px 40px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
   text-align: center;
   background: #f79f1f;
+}
+
+@media (max-width: 991px) {
+  header {
+    padding: 20px 80px;
+  }
+  header .navbar {
+    display: none;
+  }
+  header .menuToggle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
 }
 /*# sourceMappingURL=style.css.map */

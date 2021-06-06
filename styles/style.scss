@@ -82,13 +82,13 @@ header {
   width: 100%;
   padding: 30px 90px;
   background: $logoColor;
+  opacity: 0.8;
   z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: 0.5s;
   border-bottom: 4px solid $primaryColor;
-
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 
   .logo {
@@ -164,7 +164,7 @@ header.sticky {
 .contact {
   @include allContent();
   background: #34495e;
-  height: 1000px;
+  height: 100vh;
 
   .title {
     padding: 7rem 0 2rem;
@@ -224,11 +224,26 @@ header.sticky {
   border: none;
   cursor: pointer;
 }
-.copyright {
+footer {
   // z-index: 100;
   // position: fixed;
   padding: 8px 40px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  // border-top: 1px solid rgba(0, 0, 0, 0.1);
   text-align: center;
   background: $logoColor;
+}
+
+@media (max-width: 991px) {
+  header {
+    padding: 20px 80px;
+    .navbar {
+      display: none;
+    }
+    .menuToggle {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+    }
+  }
 }
