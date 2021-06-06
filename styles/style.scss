@@ -248,6 +248,7 @@ footer {
       background-repeat: no-repeat;
       background-position: center;
       cursor: pointer;
+      transition: 0.3s;
     }
     .menuToggle.active {
       background: url("../images/close.png");

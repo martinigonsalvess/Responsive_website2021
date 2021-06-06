@@ -299,6 +299,8 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
   }
   header .menuToggle.active {
     background: url("../images/close.png");
