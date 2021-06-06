@@ -256,6 +256,10 @@ header.sticky .logo {
   border: none;
 }
 
+.contactForm .inputBox textarea {
+  height: 100px;
+}
+
 .contactForm .inputBox input[type="submit"] {
   color: #fff;
   background: #f79f1f;
@@ -265,5 +269,6 @@ header.sticky .logo {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border: none;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

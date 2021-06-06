@@ -206,6 +206,9 @@ header.sticky {
     border-radius: 10px;
     border: none;
   }
+  textarea {
+    height: 100px;
+  }
 }
 .contactForm .inputBox input[type="submit"] {
   color: $primaryColor;
@@ -215,4 +218,5 @@ header.sticky {
   text-transform: uppercase;
   transition: 0.5s;
   border: none;
+  cursor: pointer;
 }
