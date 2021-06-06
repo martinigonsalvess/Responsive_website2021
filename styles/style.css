@@ -7,6 +7,10 @@
   font-family: "Nunito", sans-serif;
 }
 
+body {
+  min-height: 1000px;
+}
+
 P {
   font-weight: 300;
   color: #fff;
@@ -49,7 +53,7 @@ P {
 .btn {
   font-size: 1rem;
   color: #fff;
-  background: #535353;
+  background: #f79f1f;
   border: 1px solid #fff;
   display: inline-block;
   padding: 10px 30px;
@@ -91,5 +95,31 @@ header .logo {
   font-weight: 700;
   font-size: 2rem;
   text-decoration: none;
+}
+
+header .navbar {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .navbar li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+header .navbar li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+header.sticky {
+  background: #f79f1f;
+  border-bottom: 4px solid #fff;
+  padding: 20px 80px;
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
 /*# sourceMappingURL=style.css.map */

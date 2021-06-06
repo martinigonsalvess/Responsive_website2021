@@ -10,7 +10,7 @@
   <body>
     <header>
       <a href="#" class="logo">LOGO</a>
-      <ul class="nabar">
+      <ul class="navbar">
         <li><a href="#home">Home</a></li>
         <li><a href="#gallery">Gallerij</a></li>
         <li><a href="#contact">Contact ons</a></li>
@@ -23,5 +23,11 @@
         <a href="#" class="btn">Contact</a>
       </div>
     </section>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY);
+      });
+    </script>
   </body>
 </html>
