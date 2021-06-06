@@ -285,16 +285,26 @@ footer {
 
 @media (max-width: 991px) {
   header {
-    padding: 20px 80px;
+    padding: 20px 20px;
   }
   header .navbar {
     display: none;
   }
   header .menuToggle {
     position: relative;
+    background: url("../images/menu.png");
     width: 40px;
     height: 40px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
     cursor: pointer;
+  }
+  header .menuToggle.active {
+    background: url("../images/close.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
