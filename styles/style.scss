@@ -124,7 +124,6 @@ header.sticky {
 .gallery {
   @include allContent();
   min-height: 100vh;
-
   background: #2c3e50;
 
   .title {
@@ -174,4 +173,27 @@ header.sticky {
       }
     }
   }
+}
+.contactContainer {
+  // background: red;
+  @include flexCenter();
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.contactForm,
+.contactInfo {
+  padding: 75px;
+  background: #2c3e50;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+  max-width: 500px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  h3 {
+    margin-bottom: 20px;
+  }
+}
+.contactForm .inputBox {
+  background: red;
+  margin-bottom: 10px;
+  width: 100%;
 }
