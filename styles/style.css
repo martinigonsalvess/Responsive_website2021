@@ -5,6 +5,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -131,5 +132,39 @@ header.sticky {
 
 header.sticky .logo {
   color: #fff;
+}
+
+.gallery .title h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.gallery .title h2 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.gallery .content {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.gallery .content .box {
+  padding: 10px;
+}
+
+.gallery .content .box .imgBx img {
+  border-radius: 15px;
 }
 /*# sourceMappingURL=style.css.map */

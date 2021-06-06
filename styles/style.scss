@@ -10,11 +10,15 @@
 $primaryColor: #fff;
 $secondaryColor: #000;
 $logoColor: #f79f1f;
+
+$h1: 2rem;
+$h2: 1.3rem;
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
   //   color: #fff;
 }
 body {
@@ -106,5 +110,28 @@ header.sticky {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   .logo {
     color: $primaryColor;
+  }
+}
+.gallery {
+  .title h1 {
+    text-align: center;
+    font-size: $h1;
+  }
+  .title h2 {
+    text-align: center;
+    font-size: $h2;
+  }
+
+  .content {
+    // position: relative;
+    width: 100%;
+    @include flexCenter();
+    flex-wrap: wrap;
+    .box {
+      padding: 10px;
+      .imgBx img {
+        border-radius: 15px;
+      }
+    }
   }
 }
