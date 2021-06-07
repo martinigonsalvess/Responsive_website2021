@@ -346,7 +346,7 @@ footer {
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
   }
   .contact {
-    height: 100vh;
+    min-height: 1000px;
   }
   .contactContainer .contactForm,
   .contactContainer .contactInfo {
