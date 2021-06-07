@@ -12,9 +12,9 @@
       <a href="#" class="logo"><span>H</span>inzen</a>
       <div class="menuToggle" onclick="toggleMenu();"></div>
       <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#gallery">Gallerij</a></li>
-        <li><a href="#contact">Contact ons</a></li>
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#gallery" onclick="toggleMenu();">Gallerij</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact ons</a></li>
       </ul>
     </header>
     <section class="home" id="home">
@@ -72,16 +72,16 @@
         <div class="contactForm">
           <h3>Stuur ons een bericht</h3>
           <div class="inputBox">
-            <input type="text" placeholder="Uw naam" />
+            <input type="text" placeholder="Naam..." />
           </div>
           <div class="inputBox">
-            <input type="email" placeholder="Uw e-mail" />
+            <input type="email" placeholder="E-mail..." />
           </div>
           <div class="inputBox">
-            <input type="telefoon" placeholder="Uw telefoonnummer" />
+            <input type="telefoon" placeholder="Telefoonnummer..." />
           </div>
           <div class="inputBox">
-            <textarea placeholder="Vul uw bericht hier in"></textarea>
+            <textarea placeholder="Bericht..."></textarea>
           </div>
           <div class="inputBox">
             <input type="submit" value="Verzenden" rows="14" cols="50" />
