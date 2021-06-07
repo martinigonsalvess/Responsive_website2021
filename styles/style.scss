@@ -234,16 +234,19 @@ footer {
 }
 
 @media (max-width: 991px) {
+  header.sticky {
+    padding: 10px 20px;
+  }
   header {
-    padding: 20px 80px;
+    padding: 10px 20px;
     .navbar {
       display: none;
     }
     .navbar.active {
       width: 100%;
-      height: 100%;
+      height: calc(100% - 68px);
       position: fixed;
-      top: 0;
+      top: 68px;
       left: 0;
       @include flexCenter();
       flex-direction: column;
@@ -269,6 +272,17 @@ footer {
       background-size: 25px;
       background-repeat: no-repeat;
       background-position: center;
+    }
+  }
+  .gallery .content {
+    .box {
+      padding: 10px;
+
+      .imgBx img {
+        border-radius: 8px;
+        width: 300px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+      }
     }
   }
 }
