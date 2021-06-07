@@ -233,13 +233,13 @@ header.sticky .logo {
 
 .contactForm,
 .contactInfo {
-  padding: 75px;
+  padding: 35px 25px;
   background: #2c3e50;
   -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
           box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
-  max-width: 500px;
+  width: 500px;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin: 10px 20px;
 }
 
 .contactForm h3,
@@ -344,6 +344,13 @@ footer {
     width: 300px;
     -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+  }
+  .contact {
+    height: 100vh;
+  }
+  .contactContainer .contactForm,
+  .contactContainer .contactInfo {
+    width: 500px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -186,12 +186,14 @@ header.sticky {
 }
 .contactForm,
 .contactInfo {
-  padding: 75px;
+  padding: 35px 25px;
   background: #2c3e50;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
-  max-width: 500px;
+  width: 500px;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin: 10px 20px;
+
+  // margin-bottom: 20px;
   h3 {
     margin-bottom: 20px;
   }
@@ -283,6 +285,16 @@ footer {
         width: 300px;
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
       }
+    }
+  }
+  .contact {
+    height: 100vh;
+  }
+  .contactContainer {
+    // background-color: red;
+    .contactForm,
+    .contactInfo {
+      width: 500px;
     }
   }
 }
