@@ -266,6 +266,12 @@ header.sticky .logo:hover {
   letter-spacing: 0.2rem;
 }
 
+.contactForm p a,
+.contactInfo p a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .contactForm .inputBox {
   margin-bottom: 10px;
 }
