@@ -70,7 +70,9 @@ P {
 }
 
 .btn:hover {
-  letter-spacing: 3px;
+  background: #a3cb38;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
 header {
@@ -105,6 +107,12 @@ header .logo {
   text-decoration: none;
 }
 
+header .logo:hover {
+  color: #a3cb38;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
 header .navbar {
   position: relative;
   display: -webkit-box;
@@ -118,6 +126,7 @@ header .navbar li {
 }
 
 header .navbar li a {
+  text-transform: uppercase;
   text-decoration: none;
   color: #fff;
   letter-spacing: 0.2rem;
@@ -140,6 +149,12 @@ header.sticky {
 
 header.sticky .logo {
   color: #fff;
+}
+
+header.sticky .logo:hover {
+  color: #a3cb38;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
 .gallery {
@@ -280,6 +295,12 @@ header.sticky .logo {
   transition: 0.5s;
   border: none;
   cursor: pointer;
+}
+
+.contactForm .inputBox input[type="submit"]:hover {
+  background: #a3cb38;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
 footer {
