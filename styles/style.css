@@ -160,7 +160,7 @@ header.sticky .logo {
 }
 
 .gallery .title h1 span {
-  color: #f79f1f;
+  color: #fff;
 }
 
 .gallery .title h2 {
@@ -212,7 +212,7 @@ header.sticky .logo {
 }
 
 .contact .title h1 span {
-  color: #f79f1f;
+  color: #fff;
 }
 
 .contactContainer {
@@ -245,6 +245,11 @@ header.sticky .logo {
 .contactForm h3,
 .contactInfo h3 {
   margin-bottom: 20px;
+}
+
+.contactForm p,
+.contactInfo p {
+  letter-spacing: 0.2rem;
 }
 
 .contactForm .inputBox {

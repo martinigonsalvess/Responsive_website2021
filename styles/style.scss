@@ -137,7 +137,7 @@ header.sticky {
     text-align: center;
     font-size: $h1;
     span {
-      color: $logoColor;
+      color: $primaryColor;
     }
   }
   .title h2 {
@@ -173,7 +173,7 @@ header.sticky {
       font-size: $h1;
 
       span {
-        color: $logoColor;
+        color: $primaryColor;
       }
     }
   }
@@ -196,6 +196,9 @@ header.sticky {
   // margin-bottom: 20px;
   h3 {
     margin-bottom: 20px;
+  }
+  p {
+    letter-spacing: 0.2rem;
   }
 }
 .contactForm .inputBox {
