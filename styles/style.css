@@ -393,5 +393,9 @@ footer {
   .contactContainer .contactInfo {
     width: 400px;
   }
+  .gallery .title,
+  .contact .title {
+    padding: 5rem 0 1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
