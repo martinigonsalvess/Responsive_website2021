@@ -314,6 +314,10 @@ footer {
   background: #f79f1f;
 }
 
+.contactInfo .bx {
+  color: #a3cb38;
+}
+
 @media (max-width: 991px) {
   header.sticky {
     padding: 10px 20px;
