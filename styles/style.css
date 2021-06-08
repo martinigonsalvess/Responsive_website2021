@@ -393,6 +393,7 @@ footer {
   .contactContainer .contactForm,
   .contactContainer .contactInfo {
     width: 390px;
+    padding: 20px 20px;
   }
   .gallery .title,
   .contact .title {
