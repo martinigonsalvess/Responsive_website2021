@@ -138,6 +138,10 @@ header .navbar li a:hover {
   transition: 0.8s;
 }
 
+header .tel-top {
+  color: white;
+}
+
 header.sticky {
   background: #f79f1f;
   border-bottom: 4px solid #fff;
