@@ -93,16 +93,19 @@ header {
   border-bottom: 4px solid $primaryColor;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 
-  .logo {
-    color: $primaryColor;
-    font-weight: 700;
-    font-size: 2rem;
-    text-decoration: none;
-    &:hover {
-      color: #a3cb38;
-      transition: 0.8s;
-    }
+  // .logo {
+  //   color: $primaryColor;
+  //   font-weight: 700;
+  //   font-size: 2rem;
+  //   text-decoration: none;
+  //   &:hover {
+  //     color: #a3cb38;
+  //     transition: 0.8s;
+  //   }
+  .logo img#logo-image {
+    height: 50px;
   }
+
   .navbar {
     position: relative;
     display: flex;
