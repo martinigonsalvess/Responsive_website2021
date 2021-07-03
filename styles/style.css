@@ -256,6 +256,7 @@ header.sticky {
 .contactForm p,
 .contactInfo p {
   letter-spacing: 0.2rem;
+  padding: 5px 0;
 }
 
 .contactForm p a,
