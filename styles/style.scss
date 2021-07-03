@@ -287,6 +287,7 @@ footer {
       position: fixed;
       top: 60px;
       left: 0;
+      // animation: slideIn 2s forwards;
 
       @include flexCenter();
       flex-direction: column;
@@ -294,11 +295,39 @@ footer {
     }
     .navbar li {
       margin: 20px 0;
+      animation: slideIn 2s forwards;
     }
     .navbar li a {
       color: $primaryColor;
       font-size: 2rem;
     }
+    //slide animation
+    @-webkit-keyframes slideIn {
+      0% {
+        transform: translateX(-900px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    @-moz-keyframes slideIn {
+      0% {
+        transform: translateX(-900px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    @keyframes slideIn {
+      0% {
+        transform: translateX(-900px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    //end animation
+
     .menuToggle {
       position: relative;
       background: url("../images/menu.png");
