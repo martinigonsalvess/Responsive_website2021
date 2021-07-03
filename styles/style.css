@@ -338,6 +338,9 @@ footer {
             flex-direction: column;
     background: #2c3e50;
   }
+  header .navbar li {
+    margin: 20px 0;
+  }
   header .navbar li a {
     color: #fff;
     font-size: 2rem;

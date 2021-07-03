@@ -287,9 +287,13 @@ footer {
       position: fixed;
       top: 68px;
       left: 0;
+
       @include flexCenter();
       flex-direction: column;
       background: #2c3e50;
+    }
+    .navbar li {
+      margin: 20px 0;
     }
     .navbar li a {
       color: $primaryColor;
