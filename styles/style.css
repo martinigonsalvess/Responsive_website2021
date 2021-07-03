@@ -82,7 +82,7 @@ header {
   left: 0;
   width: 100%;
   padding: 20px 80px;
-  background: #f79f1f;
+  background: #fff;
   z-index: 100;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,9 +101,9 @@ header {
 }
 
 header .logo {
-  height: 40px;
+  height: 80px;
   position: absolute;
-  top: 17px;
+  top: 12px;
   left: 10%;
 }
 

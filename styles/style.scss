@@ -83,7 +83,7 @@ header {
   left: 0;
   width: 100%;
   padding: 20px 80px;
-  background: $logoColor;
+  background: $primaryColor;
   // opacity: 0.8;
   z-index: 100;
   display: flex;
@@ -106,9 +106,9 @@ header {
   //   height: 50px;
   // }
   .logo {
-    height: 40px;
+    height: 80px;
     position: absolute;
-    top: 17px;
+    top: 12px;
     left: 10%;
   }
   .navbar {
