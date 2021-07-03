@@ -121,7 +121,7 @@ header {
         text-transform: uppercase;
 
         text-decoration: none;
-        color: $primaryColor;
+        color: $logoColor;
         letter-spacing: 0.2rem;
         font-weight: 600;
         &:hover {
@@ -136,8 +136,8 @@ header {
   }
 }
 header.sticky {
-  background: $logoColor;
-  border-bottom: 4px solid $primaryColor;
+  background: $primaryColor;
+  border-bottom: 4px solid $logoColor;
   padding: 20px 80px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   // .logo {
@@ -298,7 +298,7 @@ footer {
     .menuToggle {
       position: relative;
       background: url("../images/menu.png");
-      filter: invert(1);
+      filter: invert(0);
       width: 40px;
       height: 40px;
       background-size: 30px;

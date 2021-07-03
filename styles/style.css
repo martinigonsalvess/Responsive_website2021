@@ -122,7 +122,7 @@ header .navbar li {
 header .navbar li a {
   text-transform: uppercase;
   text-decoration: none;
-  color: #fff;
+  color: #f79f1f;
   letter-spacing: 0.2rem;
   font-weight: 600;
 }
@@ -138,8 +138,8 @@ header .tel-top {
 }
 
 header.sticky {
-  background: #f79f1f;
-  border-bottom: 4px solid #fff;
+  background: #fff;
+  border-bottom: 4px solid #f79f1f;
   padding: 20px 80px;
   -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
@@ -345,8 +345,8 @@ footer {
   header .menuToggle {
     position: relative;
     background: url("../images/menu.png");
-    -webkit-filter: invert(1);
-            filter: invert(1);
+    -webkit-filter: invert(0);
+            filter: invert(0);
     width: 40px;
     height: 40px;
     background-size: 30px;
