@@ -340,8 +340,8 @@ footer {
   }
   header .navbar li {
     margin: 20px 0;
-    -webkit-animation: slideIn 2s forwards;
-            animation: slideIn 2s forwards;
+    -webkit-animation: slideIn 1s forwards;
+            animation: slideIn 1s forwards;
   }
   header .navbar li a {
     color: #fff;
