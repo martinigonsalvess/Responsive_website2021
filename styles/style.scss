@@ -102,10 +102,15 @@ header {
   //     color: #a3cb38;
   //     transition: 0.8s;
   //   }
-  .logo img#logo-image {
-    height: 50px;
+  // .logo img#logo-image {
+  //   height: 50px;
+  // }
+  .logo {
+    height: 40px;
+    position: absolute;
+    top: 17px;
+    left: 10%;
   }
-
   .navbar {
     position: relative;
     display: flex;
@@ -135,13 +140,13 @@ header.sticky {
   border-bottom: 4px solid $primaryColor;
   padding: 20px 80px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
-  .logo {
-    color: $primaryColor;
-    &:hover {
-      color: #a3cb38;
-      transition: 0.8s;
-    }
-  }
+  // .logo {
+  //   color: $primaryColor;
+  //   &:hover {
+  //     color: #a3cb38;
+  //     transition: 0.8s;
+  //   }
+  // }
 }
 .gallery {
   @include allContent();
