@@ -321,7 +321,7 @@ footer {
     width: 100%;
     height: calc(100% - 68px);
     position: fixed;
-    top: 68px;
+    top: 60px;
     left: 0;
     display: -webkit-box;
     display: -ms-flexbox;
