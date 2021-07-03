@@ -206,7 +206,7 @@ header.sticky {
 .contactContainer {
   // background: red;
   @include flexCenter();
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .contactForm,
