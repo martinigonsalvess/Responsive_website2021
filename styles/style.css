@@ -469,13 +469,6 @@ footer {
               transform: translateX(0);
     }
   }
-  header .slideshow-item-text {
-    max-width: 70%;
-    padding: 1rem 1rem;
-  }
-  header .slideshow-item-text h5 {
-    font-size: 1.2rem;
-  }
   header .menuToggle {
     position: relative;
     background: url("../images/menu.png");
@@ -497,6 +490,16 @@ footer {
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
+  }
+  .slideshow-item-text {
+    max-width: 70%;
+    padding: 1rem 1rem;
+  }
+  .slideshow-item-text h5 {
+    font-size: 0.9rem;
+  }
+  .slideshow-item-text p {
+    font-size: 0.7rem;
   }
   .gallery .content .box {
     padding: 10px;
