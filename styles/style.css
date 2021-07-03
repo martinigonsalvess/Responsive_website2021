@@ -101,10 +101,13 @@ header {
 }
 
 header .logo {
-  height: 80px;
   position: absolute;
   top: 10px;
   left: 5%;
+}
+
+header .logo img {
+  height: 80px;
 }
 
 header .navbar {
