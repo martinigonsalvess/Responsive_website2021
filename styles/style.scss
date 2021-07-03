@@ -99,7 +99,7 @@ h5 {
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  background-color: rgba(243, 113, 33, 0.8);
+  background-color: rgba(243, 113, 33, 0.9);
   padding: 3rem 3rem;
 }
 .slideshow-item-text h5 {
@@ -422,13 +422,15 @@ footer {
   }
   .slideshow-item-text {
     max-width: 70%;
-    padding: 1rem 1rem;
+    padding: 1rem 1.5rem;
   }
   .slideshow-item-text h5 {
     font-size: 0.9rem;
+    margin-bottom: 1rem;
   }
   .slideshow-item-text p {
     font-size: 0.7rem;
+    letter-spacing: 0.8px;
   }
   .gallery .content {
     .box {
@@ -437,7 +439,7 @@ footer {
       .imgBx img {
         border-radius: 8px;
         width: 300px;
-        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+        box-shadow: 0 5px 20px rgba(117, 84, 84, 0.8);
       }
     }
   }
