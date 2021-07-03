@@ -102,14 +102,14 @@ h5 {
   position: absolute;
   top: 50%;
   right: 0;
-  -webkit-transform: translateY(75%);
-          transform: translateY(75%);
-  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: rgba(243, 113, 33, 0.8);
   padding: 3rem 3rem;
 }
 
 .slideshow-item-text h5 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 2rem;
@@ -470,14 +470,11 @@ footer {
     }
   }
   header .slideshow-item-text {
-    max-width: 50%;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 70%;
     padding: 1rem 1rem;
+  }
+  header .slideshow-item-text h5 {
+    font-size: 1.2rem;
   }
   header .menuToggle {
     position: relative;
