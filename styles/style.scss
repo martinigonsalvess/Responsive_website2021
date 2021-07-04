@@ -302,12 +302,13 @@ header.sticky {
       text-align: center;
     }
     p {
-      text-align: center;
+      // text-align: center;
       margin: 1rem 5rem;
     }
   }
 }
-.contactContainer {
+.contactContainer,
+.werkzaamheden {
   // background: red;
   @include flexCenter();
   justify-content: center;
@@ -407,7 +408,7 @@ footer {
     }
     .navbar li a {
       color: $primaryColor;
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
     //slide animation for navbar
     @-webkit-keyframes slideIn {
