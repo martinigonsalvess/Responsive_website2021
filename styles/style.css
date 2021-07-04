@@ -217,6 +217,7 @@ header .navbar {
 header .navbar li {
   list-style: none;
   margin-left: 30px;
+  position: relative;
 }
 
 header .navbar li a {
@@ -235,6 +236,37 @@ header .navbar li a:hover {
 
 header .tel-top {
   color: white;
+}
+
+.bx-caret-down-square {
+  margin-left: 5px;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.navbar li:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: white;
+}
+
+.navbar li:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px 5px;
+}
+
+.navbar li:hover .dropdown-menu ul li {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.dropdown-menu ul li a {
+  font-size: 0.7rem;
 }
 
 header.sticky {
@@ -296,7 +328,10 @@ header.sticky {
           box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
 }
 
-.contact {
+.contact,
+.werkzaamheden,
+.grondwerken,
+.bestratingen {
   border-top: 2px solid #fff;
   color: #fff;
   letter-spacing: 4px;
@@ -304,17 +339,41 @@ header.sticky {
   height: 100vh;
 }
 
-.contact .title {
+.contact .title,
+.werkzaamheden .title,
+.grondwerken .title,
+.bestratingen .title {
   padding: 7rem 0 2rem;
 }
 
-.contact .title h1 {
+.contact .title h1,
+.werkzaamheden .title h1,
+.grondwerken .title h1,
+.bestratingen .title h1 {
   text-align: center;
   font-size: 2rem;
 }
 
-.contact .title h1 span {
+.contact .title h1 span,
+.werkzaamheden .title h1 span,
+.grondwerken .title h1 span,
+.bestratingen .title h1 span {
   color: #fff;
+}
+
+.contact .title h2,
+.werkzaamheden .title h2,
+.grondwerken .title h2,
+.bestratingen .title h2 {
+  text-align: center;
+}
+
+.contact .title p,
+.werkzaamheden .title p,
+.grondwerken .title p,
+.bestratingen .title p {
+  text-align: center;
+  margin: 1rem 5rem;
 }
 
 .contactContainer {
