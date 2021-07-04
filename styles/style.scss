@@ -158,7 +158,7 @@ header {
   justify-content: space-between;
   align-items: center;
   transition: 0.5s;
-  border-bottom: 4px solid $primaryColor;
+  // border-bottom: 4px solid $primaryColor;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 
   // .logo {
@@ -175,7 +175,7 @@ header {
   // }
   .logo {
     position: absolute;
-    top: 10px;
+    top: 6px;
     left: 5%;
     img {
       height: 80px;
@@ -206,7 +206,7 @@ header {
 }
 header.sticky {
   background: $primaryColor;
-  border-bottom: 4px solid $logoColor;
+  // border-bottom: 4px solid $logoColor;
   padding: 20px 80px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   // .logo {
@@ -426,7 +426,7 @@ footer {
     transform: translateY(80%);
   }
   .slideshow-item-text h5 {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin-bottom: 1rem;
   }
   .slideshow-item-text p {

@@ -193,14 +193,13 @@ header {
           align-items: center;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  border-bottom: 4px solid #fff;
   -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
 
 header .logo {
   position: absolute;
-  top: 10px;
+  top: 6px;
   left: 5%;
 }
 
@@ -240,7 +239,6 @@ header .tel-top {
 
 header.sticky {
   background: #fff;
-  border-bottom: 4px solid #f79f1f;
   padding: 20px 80px;
   -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
@@ -498,7 +496,7 @@ footer {
             transform: translateY(80%);
   }
   .slideshow-item-text h5 {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin-bottom: 1rem;
   }
   .slideshow-item-text p {
