@@ -290,7 +290,7 @@ header.sticky {
 
 .gallery .title h1 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .gallery .title h1 span {
@@ -299,7 +299,7 @@ header.sticky {
 
 .gallery .title h2 {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .gallery .content {
@@ -330,7 +330,7 @@ header.sticky {
 
 .werkzaamheden {
   color: #fff;
-  background-color: #000;
+  background-color: #2c3e50;
 }
 
 .werkzaamheden .title {
@@ -339,12 +339,12 @@ header.sticky {
 
 .werkzaamheden .title h1 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .werkzaamheden .title h2 {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .werkzaamheden .werkzaamhedenContainer {
@@ -365,6 +365,7 @@ header.sticky {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 10px;
 }
 
 .contact {
@@ -381,7 +382,7 @@ header.sticky {
 
 .contact .title h1 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .contact .title h1 span {
