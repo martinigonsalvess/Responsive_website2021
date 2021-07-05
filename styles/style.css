@@ -358,7 +358,7 @@ header.sticky {
 }
 
 .werkzaamheden .werkzaamhedenContainer .content-werkzaamheden p {
-  padding-right: 1rem;
+  padding: 0 1rem 0 1rem;
 }
 
 .werkzaamheden .werkzaamhedenContainer .img-werkzaamheden img {
@@ -366,7 +366,6 @@ header.sticky {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 10px;
 }
 
 .contact {
@@ -615,8 +614,14 @@ footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .werkzaamhedenContainer .content-werkzaamheden p {
-    padding-bottom: 1rem;
+  .werkzaamhedenContainer .img-werkzaamheden img {
+    padding: 1rem;
+  }
+  .grond {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 }
 /*# sourceMappingURL=style.css.map */
