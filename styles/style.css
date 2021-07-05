@@ -276,7 +276,92 @@ header.sticky {
           box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
 
-.werkzaamheden,
+.gallery {
+  border-top: 2px solid #fff;
+  color: #fff;
+  letter-spacing: 4px;
+  min-height: 100vh;
+  background: #2c3e50;
+}
+
+.gallery .title {
+  padding: 7rem 0 1rem;
+}
+
+.gallery .title h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.gallery .title h1 span {
+  color: #fff;
+}
+
+.gallery .title h2 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.gallery .content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.gallery .content .box {
+  padding: 10px;
+}
+
+.gallery .content .box .imgBx img {
+  border-radius: 8px;
+  width: 500px;
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+}
+
+.werkzaamheden {
+  color: #fff;
+  background-color: #000;
+}
+
+.werkzaamheden .title {
+  padding: 5rem 0 2rem;
+}
+
+.werkzaamheden .title h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.werkzaamheden .title h2 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.werkzaamheden .werkzaamhedenContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-inline: auto;
+  width: 70.5%;
+}
+
+.werkzaamheden .werkzaamhedenContainer .img-werkzaamheden img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .contact {
   border-top: 2px solid #fff;
   color: #fff;
@@ -285,43 +370,25 @@ header.sticky {
   height: 100vh;
 }
 
-.werkzaamheden .title,
 .contact .title {
   padding: 5rem 0 2rem;
 }
 
-.werkzaamheden .title h1,
 .contact .title h1 {
   text-align: center;
   font-size: 2rem;
 }
 
-.werkzaamheden .title h1 span,
 .contact .title h1 span {
   color: #fff;
 }
 
-.werkzaamheden .title h2,
 .contact .title h2 {
   text-align: center;
 }
 
-.werkzaamheden .title p,
 .contact .title p {
   margin: 1rem 5rem;
-}
-
-.werkzaamhedenContainer {
-  width: 100%;
-  height: auto;
-  background-color: red;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.werkzaamhedenContainer .img-werkzaamheden img {
-  height: 50%;
 }
 
 .contactContainer {

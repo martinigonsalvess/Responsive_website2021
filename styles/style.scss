@@ -279,8 +279,32 @@ header.sticky {
     }
   }
 }
+.werkzaamheden {
+  color: $primaryColor;
+  background-color: $secondaryColor;
+  .title {
+    padding: 5rem 0 2rem;
+  }
+  .title h1 {
+    text-align: center;
+    font-size: $h1;
+  }
+  .title h2 {
+    text-align: center;
+    font-size: $h2;
+  }
+  .werkzaamhedenContainer {
+    display: flex;
+    margin-inline: auto;
+    width: min(90%, 70.5%);
+    .img-werkzaamheden img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
 
-.werkzaamheden,
 .contact {
   @include allContent();
   background: #34495e;
@@ -305,17 +329,7 @@ header.sticky {
     }
   }
 }
-.werkzaamhedenContainer {
-  width: 100%;
-  height: auto;
-  background-color: red;
-  display: flex;
-  .content-werkzaamheden p {
-  }
-  .img-werkzaamheden img {
-    height: 50%;
-  }
-}
+
 .contactContainer {
   // background: red;
   @include flexCenter();
@@ -512,18 +526,4 @@ footer {
     }
   }
 }
-//-----------------------------media max 001-----
-
-// @media screen and (max-width: 767px) {
-//   .werkzaamheden {
-//     img {
-//       height: 100vh;
-//       width: 100%;
-//       object-fit: cover;
-//       padding: 0 10px;
-//     }
-//     p {
-//       color: $secondaryColor;
-//     }
-//   }
-// }
+//-----------------------------media max 767-----
