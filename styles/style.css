@@ -353,7 +353,7 @@ header.sticky {
   display: flex;
   padding-bottom: 2rem;
   margin-inline: auto;
-  width: 70.5%;
+  width: 90.5%;
 }
 
 .werkzaamheden .werkzaamhedenContainer .content-werkzaamheden p {
@@ -612,6 +612,9 @@ footer {
   .werkzaamhedenContainer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .werkzaamhedenContainer .content-werkzaamheden p {
+    padding-bottom: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

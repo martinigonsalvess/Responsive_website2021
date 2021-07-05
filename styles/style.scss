@@ -297,7 +297,7 @@ header.sticky {
     display: flex;
     padding-bottom: 2rem;
     margin-inline: auto;
-    width: min(90%, 70.5%);
+    width: min(99%, 90.5%);
     .content-werkzaamheden p {
       padding-right: 1rem;
     }
@@ -534,5 +534,8 @@ footer {
 @media (max-width: 767px) {
   .werkzaamhedenContainer {
     flex-wrap: wrap;
+    .content-werkzaamheden p {
+      padding-bottom: 1rem;
+    }
   }
 }
