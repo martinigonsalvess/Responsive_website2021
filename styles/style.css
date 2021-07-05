@@ -351,8 +351,13 @@ header.sticky {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 2rem;
   margin-inline: auto;
   width: 70.5%;
+}
+
+.werkzaamheden .werkzaamhedenContainer .content-werkzaamheden p {
+  padding-right: 1rem;
 }
 
 .werkzaamheden .werkzaamhedenContainer .img-werkzaamheden img {
@@ -600,6 +605,13 @@ footer {
   .gallery .title,
   .contact .title {
     padding: 5rem 0 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .werkzaamhedenContainer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 /*# sourceMappingURL=style.css.map */
