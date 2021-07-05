@@ -609,6 +609,10 @@ footer {
 }
 
 @media (max-width: 767px) {
+  .contactForm,
+  .contactInfo {
+    max-width: 500px;
+  }
   .werkzaamhedenContainer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;

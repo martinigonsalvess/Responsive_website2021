@@ -533,6 +533,10 @@ footer {
 }
 //-----------------------------media max 767-----
 @media (max-width: 767px) {
+  .contactForm,
+  .contactInfo {
+    max-width: 500px;
+  }
   .werkzaamhedenContainer {
     flex-wrap: wrap;
     .img-werkzaamheden img {
