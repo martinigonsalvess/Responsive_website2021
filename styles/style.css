@@ -345,6 +345,7 @@ header.sticky {
 .werkzaamheden .title h2 {
   text-align: center;
   font-size: 1.2rem;
+  letter-spacing: 1.5px;
 }
 
 .werkzaamheden .werkzaamhedenContainer {
