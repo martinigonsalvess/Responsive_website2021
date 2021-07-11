@@ -303,11 +303,13 @@ header.sticky {
     margin-inline: auto;
     width: min(99%, 90.5%);
     .content-werkzaamheden p {
+      max-width: 500px;
       padding: 0 1rem 0 1rem;
     }
     .img-werkzaamheden img {
       width: 100%;
-      max-height: 300px;
+      max-width: 500px;
+      // max-height: 300px;
       object-fit: cover;
     }
   }

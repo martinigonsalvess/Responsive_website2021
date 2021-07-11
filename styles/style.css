@@ -363,12 +363,13 @@ header.sticky {
 }
 
 .werkzaamheden .werkzaamhedenContainer .content-werkzaamheden p {
+  max-width: 500px;
   padding: 0 1rem 0 1rem;
 }
 
 .werkzaamheden .werkzaamhedenContainer .img-werkzaamheden img {
   width: 100%;
-  max-height: 300px;
+  max-width: 500px;
   -o-object-fit: cover;
      object-fit: cover;
 }
