@@ -370,7 +370,7 @@ header.sticky {
 
 .werkzaamheden .werkzaamhedenContainer .img-werkzaamheden img {
   width: 100%;
-  max-width: 500px;
+  height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
   text-align: center;
@@ -639,6 +639,7 @@ footer {
   }
   .werkzaamhedenContainer .img-werkzaamheden img {
     padding: 1rem;
+    max-width: 500px;
   }
   .grond {
     -webkit-box-orient: vertical;

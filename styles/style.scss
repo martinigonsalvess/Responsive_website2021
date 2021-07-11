@@ -312,10 +312,10 @@ header.sticky {
     }
     .img-werkzaamheden img {
       width: 100%;
-      max-width: 500px;
+      height: 500px;
+      // max-width: 500px;
       object-fit: cover;
       text-align: center;
-
       // max-height: 300px;
     }
   }
@@ -563,6 +563,7 @@ footer {
     flex-wrap: wrap;
     .img-werkzaamheden img {
       padding: 1rem;
+      max-width: 500px;
     }
   }
   .grond {
