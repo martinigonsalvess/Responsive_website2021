@@ -364,6 +364,7 @@ header.sticky {
 
 .werkzaamheden .werkzaamhedenContainer .content-werkzaamheden p {
   max-width: 500px;
+  margin: 0 auto;
   padding: 0 1rem 0 1rem;
 }
 
@@ -372,6 +373,7 @@ header.sticky {
   max-width: 500px;
   -o-object-fit: cover;
      object-fit: cover;
+  text-align: center;
 }
 
 .contact {
@@ -490,6 +492,12 @@ footer {
 
 .contactInfo .bx {
   color: #a3cb38;
+}
+
+@media (max-width: 1190px) {
+  .navbar {
+    font-size: 0.7rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -623,6 +631,9 @@ footer {
     font-size: 1rem;
   }
   .werkzaamhedenContainer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -634,6 +645,12 @@ footer {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+  }
+  .machinaal {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=style.css.map */

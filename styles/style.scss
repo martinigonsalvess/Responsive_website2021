@@ -282,6 +282,7 @@ header.sticky {
 .werkzaamheden {
   color: $primaryColor;
   background-color: #2c3e50;
+
   .title {
     padding: 5rem 0 2rem;
   }
@@ -303,14 +304,19 @@ header.sticky {
     margin-inline: auto;
     width: min(99%, 90.5%);
     .content-werkzaamheden p {
+      // width: 80%;
       max-width: 500px;
+      margin: 0 auto;
       padding: 0 1rem 0 1rem;
+      // font-size: 2rem;
     }
     .img-werkzaamheden img {
       width: 100%;
       max-width: 500px;
-      // max-height: 300px;
       object-fit: cover;
+      text-align: center;
+
+      // max-height: 300px;
     }
   }
 }
@@ -411,6 +417,13 @@ footer {
 }
 .contactInfo .bx {
   color: #a3cb38;
+}
+
+//-----------------------------media max 1190-----
+@media (max-width: 1190px) {
+  .navbar {
+    font-size: 0.7rem;
+  }
 }
 //-----------------------------media max 991-----
 @media (max-width: 991px) {
@@ -546,6 +559,7 @@ footer {
     font-size: 1rem;
   }
   .werkzaamhedenContainer {
+    align-items: center;
     flex-wrap: wrap;
     .img-werkzaamheden img {
       padding: 1rem;
@@ -553,5 +567,8 @@ footer {
   }
   .grond {
     flex-direction: column-reverse;
+  }
+  .machinaal {
+    flex-direction: column;
   }
 }
